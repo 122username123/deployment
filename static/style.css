@@ -12,8 +12,8 @@ body {
 
 header {
     padding: 3rem 1.5rem;
-    color: #ffffff;
-    background-color: #14253f;
+    color: #29661e;
+    background-color: #e9a2e6;
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ footer {
 
 section {
     margin-bottom: 1.5rem;
-    padding: 2rem;
+    padding: 3rem;
     border: 2px solid #d7e0ea;
     border-radius: 0.5rem;
     background-color: #ffffff;

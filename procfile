@@ -1,0 +1,8 @@
+web: gunicorn app:app
+& "C:\Program files\Git\cmd\git.exe" --version
+$env:Path += ";C:\Program Files\Git\cmd"
+git --version
+git --local user.name "122username123"
+git config --local user.email "9ci.lis@gmail.com"
+
+git var GIT_AUTHOR_IDENT

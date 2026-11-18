@@ -23,7 +23,8 @@ def filter_planets(planets):
 def index():
     planets = load_planets()
     filtered=filter_planets(planets)
-    return render_template("index.html", 
+    return render_template("index.html",
+                           workshop_message="Now is the perfect time to go mushroom picking in the woods.", 
                            planets=filtered, 
                            methods=sorted({planet["method"] for planet in planets}),
                            selected_method=request.args.get("method", ""),
